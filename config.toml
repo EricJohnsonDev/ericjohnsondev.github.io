@@ -1,0 +1,123 @@
+languageCode = "en-us"
+title = "Eric Johnson"
+baseurl = "https://ericjohnsondev.github.io/"
+theme = "aafu"
+
+[params]
+    title = "Eric Johnson - WIP"
+    author = "Eric Johnson" # Alt-text for profile
+    description = "params description"
+    copyright = "Hugo theme"
+    copyright_link = "#"
+
+    # Profile #
+    [params.profile]
+        name = "Eric Johnson"
+		tagline = "Software Dev"
+		location = "Bloomington IL"
+        photo = "profile.jpg"
+
+    # Social Links #
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/in/eric-johnson-607b34b3/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/EricJohnsonDev"
+        title = "GitHub"	
+
+	# Experiences #
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Software Developer"
+        dates = "June 2017 - *Present*"
+		link = "https://statefarm.com"
+        company = "State Farm"
+
+        [[params.jobs.list]]
+        position = "Technical Consultant/Co-Founder"
+        dates = "January 2016 - May 2017"
+		link = "https://millikin.edu/ventures/millikin-university-performance-consulting-mupc"
+        company = "Millikin University Performance Consulting (MUPC)"
+		
+		[[params.jobs.list]]
+        position = "Software Developer - Intern"
+        dates = "Summer 2016"
+		link = "https://statefarm.com"
+        company = "State Farm"
+		
+    # Education #
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "B.S. in Information Systems"
+        college = "Millikin University"
+        dates = "2013 - 2017"
+		link = "https://millikin.edu/"
+        #thesis_title = "Effect of humans on other humans: a study of human behavior."
+        #thesis_link = "#"
+
+    # Publication #
+    [params.publication]
+        title = "Publications"
+
+        [[params.publication.list]]
+        title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        authors = "F Last, F Second, P secondary"
+        date = "2018"
+        journal = "Journal of Field 52 (16), 9033-9044"
+        link = "#"
+
+    # Projects #
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "This site! :D"
+        url = "ericjohnsondev.github.io"
+        #description = "Description of the project"
+
+    # Skills #
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Java, Javascript (React), HTML, CSS, Groovy, Bash"
+        #skillrating = 90
+                
+        [[params.skills.list]]
+        skill = "Spring, Springboot, Jenkins, Git, Linux Administration"
+        #skillrating = 80
+		
+        [[params.skills.list]]
+        skill = "Pivotal Cloud Foundry"
+        #skillrating = 50
+		
+		[[params.skills.list]]
+        skill = "Agile Development"
+		
+	# Hobbies #
+    [params.hobbies]
+        title = "Hobbies"
+		
+        [[params.hobbies.list]]		
+		hobby = "Music"
+		
+        [[params.hobbies.list]]		
+		hobby = "Running"
+
+        [[params.hobbies.list]]		
+		hobby = "Disc Golf"
