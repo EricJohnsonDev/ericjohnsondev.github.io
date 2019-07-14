@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.55.6" />
+  <title>Eric Johnson - WIP</title>
+
+  <meta name="theme-color" content="#fff" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="params description" />
+  <meta name="author" content="Eric Johnson" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Alegreya|Lato"
+    rel="stylesheet"
+  />
+  <link
+    href="https://ericjohnsondev.github.io//css/base.css"
+	type="text/css"
+    rel="stylesheet"
+  />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <script src="https://ericjohnsondev.github.io//js/themes.js"></script>
+  <script src="https://ericjohnsondev.github.io//js/toggleTheme.js"></script>
+  
+<script>
+function overlayon(section) {
+  document.getElementById(section).style.display = "block";
+}
+
+function overlayoff(section) {
+  document.getElementById(section).style.display = "none";
+}
+</script>
+
+</head>
+
+  <body class="container bg-white">
+    <div class="ml-auto mr-auto row row-eq-height mt-4">
+  <div class="col-md-5 text-center rounded border-light p-2  mb-4">
+    <div class="float-left" style="width: 45px; height: 45px;">
+      <h3>
+	  
+        
+      </h3>
+    </div>
+    <img
+  class="rounded mb-4 mt-2 img-fluid"
+  src="https://ericjohnsondev.github.io//images/profile.jpg"
+  alt="Awesome picture of Eric"
+  title="After the 2019 Flying Pig half marathon, my first.  Judging by my smile, I didn't yet realize how much everything hurt."
+  style="width: 250px;"
+/>
+
+    <h1 class="text-dark mb-0">Eric Johnson</h1>
+<h2 class="text-dark mb-0">Software Developer</h2>
+<h3 class="text-dark mb-0">Bloomington, IL</h3>
+<div class="mt-2 d-flex flex-wrap justify-content-center">
+  
+  <div style="height:45px; width:45px;">
+    <h2>
+      <a href="https://www.linkedin.com/in/eric-johnson-607b34b3/" target="_blank">
+        <i class="text-primary zoomlink fab fa-linkedin-in"></i>
+      </a>
+    </h2>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <h2>
+      <a href="https://github.com/EricJohnsonDev" target="_blank">
+        <i class="text-primary zoomlink fab fa-github"></i>
+      </a>
+    </h2>
+  </div>
+  
+</div>
+
+    <footer class="text-dark mt-4">
+  <p>
+    Theme based on
+    <i
+      ><a href="https://github.com/darshanbaral/aafu" class="text-primary"
+        >aafu</a
+      ></i
+    >
+    by
+    <a href="https://www.darshanbaral.com/" class="text-primary"
+      >darshan</a
+    >
+  </p>
+</footer>
+
+  </div>
+  <div class="col-md-7 border rounded p-2 mb-4">
+    <a href="resume.pdf" target="_blank" style="text-decoration:none;">
+  <h2 class="w-100 text-primary">
+    <i class="fas fa-file"></i>
+    Traditional Resume (PDF)
+  </h2>
+</a>
+
+    <h2 class="accordion w-100 text-primary active">
+  <i class="fas fa-briefcase"></i>
+  Professional Experience
+</h2>
+
+<div class="panel overflow-hidden h-100 d-block">
+   
+  <dl id="selection"> 
+
+  	  
+  <div id=job1 class="overlay">
+  <i class="fas fa-times fa-7x overlay-x" onclick="overlayoff(&#34;job1&#34;)"></i>
+	<div class="overlay-text">
+	<h3>Primary Responsibilities / Accomplishments</h3>
+<hr>
+<ul>
+	<h4>January 2019 - Present</h4>
+	<h6 style="text-decoration: underline">Team: Platform Migration Dojo -> Cloud Native Architecture & Migration</h6>
+	<li>Technical coach in the 'Dojo', assisting multiple development teams migrate applications (services & UIs) to Pivotal Cloud Foundry from an internal Tomcat based platform and/or IBM's WebSphere Application Platform</li>
+	<li>Wrote a custom Pivotal Cloud Foundry plugin in Golang and released as a State Farm inner source project</li>
+	<li>Deployed, modified, and released an Open Source Q&A application (intended as an internal Stack Overflow clone)</li>
+		<ul>
+			<li>Nginx, PHP, MySQL application</li>
+			<li>Deployed using Docker images to a Containers as a Service platform based on Kubernetes</li>
+		</ul>
+	<br>
+	<h4>June 2017 - January 2019</h4>
+	<h6 style="text-decoration: underline">Team: Test Environment Provisioning</h6>
+	<li>Back-end developer of web-based applications primarily using Java, Spring, and Git SCM
+	<li>Member of an Agile team utilizing Scrum and Continuous Delivery/Continuous Integration practices
+	<li>Cross-trained in full-stack development, including familiarity with Javascript, scripting, automated testing, and Linux server administration
+</ul>
+
+	</div>
+  </div> 
+  
+  <div class="popup fullwidth" onclick="overlayon(&#34;job1&#34;)">
+ 
+	
+    <dt class="text-dark mb-0">
+	<i class="fas fa-plus-circle spinny"></i>
+      <a class="text-primary" href="https://statefarm.com">State Farm</a
+      >
+    </dt>
+	
+	
+	<dd class="text-dark ml-3">Software Developer</dd>
+	
+	
+    <dd class="text-dark ml-3">June 2017 - <em>Present</em></dd>	
+	</div>
+  </dl>
+   
+  <dl id="selection"> 
+
+  	  
+  <div id=job2 class="overlay">
+  <i class="fas fa-times fa-7x overlay-x" onclick="overlayoff(&#34;job2&#34;)"></i>
+	<div class="overlay-text">
+	<h3>Primary Responsibilities</h3>
+<hr>
+<ul>
+	<h5>August 2016 - May 2017</h5>
+	<li>Co-founder of student-run IT consulting company serving local businesses</li>
+	<li>Used skills learned in the classroom to professionally serve multiple clients</li>
+	<li>Built non-technical skills through communication with clients & project documentation</li>
+	<li>Practiced leadership skills through project & business management</li>
+</ul>
+	</div>
+  </div> 
+  
+  <div class="popup fullwidth" onclick="overlayon(&#34;job2&#34;)">
+ 
+	
+    <dt class="text-dark mb-0">
+	<i class="fas fa-plus-circle spinny"></i>
+      <a class="text-primary" href="https://millikin.edu/ventures/millikin-university-performance-consulting-mupc">Millikin University Performance Consulting (MUPC)</a
+      >
+    </dt>
+	
+	
+	<dd class="text-dark ml-3">Technical Consultant/Co-Founder</dd>
+	
+	
+    <dd class="text-dark ml-3">August 2016 - May 2017</dd>	
+	</div>
+  </dl>
+   
+  <dl id="selection"> 
+
+  	  
+  <div id=job3 class="overlay">
+  <i class="fas fa-times fa-7x overlay-x" onclick="overlayoff(&#34;job3&#34;)"></i>
+	<div class="overlay-text">
+	<h3>Primary Responsibilities</h3>
+<hr>
+<ul>
+	<h5>May 2016 - August 2016</h5>
+	<li>Created a web dashboard on a small, autonomous team using Agile development practices</li>
+	<li>Primarily worked with Java, PostGreSQL, & Ember.js</li>
+	<li>Built professional experience through scrum meetings & project showcases</li>
+</ul>
+
+	</div>
+  </div> 
+  
+  <div class="popup fullwidth" onclick="overlayon(&#34;job3&#34;)">
+ 
+	
+    <dt class="text-dark mb-0">
+	<i class="fas fa-plus-circle spinny"></i>
+      <a class="text-primary" href="https://statefarm.com">State Farm</a
+      >
+    </dt>
+	
+	
+	<dd class="text-dark ml-3">Software Developer - Intern</dd>
+	
+	
+    <dd class="text-dark ml-3">May 2016 - August 2016</dd>	
+	</div>
+  </dl>
+   
+  <dl id="selection"> 
+
+  	  
+  <div id=job4 class="overlay">
+  <i class="fas fa-times fa-7x overlay-x" onclick="overlayoff(&#34;job4&#34;)"></i>
+	<div class="overlay-text">
+	<h3>Primary Responsibilities</h3>
+<hr>
+<ul>
+	<h5>2010 - 2015 (Seasonal)</h5>
+	<li>Assisted all customers find, inspect, carry, etc. home-grown produce</li>
+	<li>Completed many different tasks depending on what the day required, including:</li>
+	<ul>
+		<li>Cleaning</li>
+		<li>Decorating</li>
+		<li>Preparing produce</li>
+		<li>Running the cash register</li>
+		<li>Re-stocking</li>
+		<li>Taking phone calls</li>
+		<li>Babysitting the Von Bergen grandchildren</li>
+	</ul>
+</ul>
+	</div>
+  </div> 
+  
+  <div class="popup fullwidth" onclick="overlayon(&#34;job4&#34;)">
+ 
+	
+    <dt class="text-dark mb-0">
+	<i class="fas fa-plus-circle spinny"></i>
+      <a class="text-primary" href="http://www.vonbergens.com/">Von Bergen&#39;s Country Market</a
+      >
+    </dt>
+	
+	
+	<dd class="text-dark ml-3">Farm Hand</dd>
+	
+	
+    <dd class="text-dark ml-3">2010 - 2015 (Seasonal)</dd>	
+	</div>
+  </dl>
+  
+</div>
+
+
+    <h2 class="accordion w-100 text-primary">
+  <i class="fas fa-graduation-cap"></i>
+  Education
+</h2>
+
+<div class="panel overflow-hidden h-100 d-block">
+  
+  <dl id="selection">
+  
+
+<div id=edu1 class="overlay">
+<i class="fas fa-times fa-7x overlay-x" onclick="overlayoff(&#34;edu1&#34;)"></i>
+	<div class="overlay-text">
+	<h3>Course Highlights </h3>
+<hr>
+
+	
+<ul>
+	<li>Systems Analysis & Design</li>
+	<li>Web Application Development</li>
+	<li>Application Integration</li>
+	<li>IT Infrastructure</li>
+	<li>Business Intelligence & Big Data</li>
+	<li>Database Application Development</li>
+</ul>
+	</div>
+</div>
+  
+	
+	<div class="popup fullwidth" onclick="overlayon(&#34;edu1&#34;)">
+		<dt class="text-dark">
+		<i class="fas fa-plus-circle spinny"></i>
+			B.S. in Information Systems
+			
+		</dt>
+	
+	
+	<dd><a class="text-primary" href="https://millikin.edu/">Millikin University (Decatur, IL)</a
+      >
+	  
+	
+	<dd  class="text-dark"></dd>
+	  
+	
+    <dd class="text-dark">May 2017 </dd>
+	
+	
+	<dd class="text-dark">GPA: 3.74/4.00 </dd>
+	</div>
+    
+  </dl>
+  
+</div>
+    
+    
+    <h2 class="accordion w-100 text-primary">
+  <i class="fas fa-cogs"></i>
+  Skills
+</h2>
+<div class="panel overflow-hidden">
+  <h5>Proficient:</h5>
+  <ul>
+    <li>Java</li>
+  	<li>Git</li>
+  	<li>Spring Boot</li>
+    <li>Spring Cloud Config</li>
+  	<li>Pivotal Cloud Foundry</li>
+  	<li>Agile/Scrum</li>
+  </ul>
+
+  <hr>
+
+  <h5>Familiar:</h5>
+  <ul>
+    <li>Go</li>
+    <li>Docker</li>
+    <li>Kubernetes</li>
+    <li>Javascript (ReactJS)</li>
+    <li>Jenkins</li>
+    <li>Linux administration</li>
+  	<li>Bash scripting</li>
+  	<li>PostGresQL, MySQL</li>
+    <li>HTML</li>
+  	<li>CSS</li>
+  	<li>Bootstrap</li>
+  </ul>
+  <hr>
+</div>
+
+    <h2 class="accordion w-100 text-primary">
+  <i class="fas fa-gamepad"></i>
+  Hobbies
+</h2>
+
+<div class="panel overflow-hidden h-100 d-block">
+
+
+  <dl id="selection">
+
+    	  
+  <div id=hobby01 class="overlay">
+  <i class="fas fa-times overlay-x" onclick="overlayoff(&#34;hobby01&#34;)"></i>
+	<div class="overlay-text">
+	<h4>Music <i class="fas fa-music"></i></h4>
+<hr>
+<h5>I've been to more concerts than I can count, and...</h5>
+<h5>I play multiple instruments:</h5>
+<ul>
+	<li>Piano</li>
+	<ul>
+		<li>Took classical lessons from 2004 - 2013</li>
+		<li>My first major at Millikin University was <a href="https://millikin.edu/commercialmusic">Commercial Music</a> with a piano emphasis</li>
+		<li>
+			I don't perform or record much music, but I have one cover on Youtube:
+			<a href="https://www.youtube.com/watch?v=mFqLsNgMl2c">Concerning Hobbits</a>
+		</li>
+	</ul>
+	<li>Guitar</li>
+	<ul>
+		<li>Began by taking lessons in 2008 - 2010</li>
+		<li>I play both acoustic and electric</li>
+	</ul>
+	<li>Bass guitar</li>
+	<li>Ukulele</li>
+</ul>
+
+	</div>
+  </div>
+
+  <div class="popup fullwidth" onclick="overlayon(&#34;hobby01&#34;)">
+    <dd class="text-dark">Music</dd>
+  </div>
+
+  <hr>
+
+  </dl>
+
+
+  <dl id="selection">
+
+    	  
+  <div id=hobby02 class="overlay">
+  <i class="fas fa-times overlay-x" onclick="overlayoff(&#34;hobby02&#34;)"></i>
+	<div class="overlay-text">
+	<h4>Running <i class="fas fa-running"></i></h4>
+<hr>
+<p>I've been an "on-and-off" runner since 2008 when I joined my school's track team.  Some races I've finished include:
+<ul>
+	<li><a href="https://penguininthepark.com/">Penguin in the Park 5k</a>: 2015, 2017, 2019</li>
+	<li><a href="http://flyingpigmarathon.com/">Flying Pig Half Marathon</a>: 2019</li>
+	<li><a href="https://insaneinflatable5k.com/">Insane Inflatable</a>: 2018</li>
+	<li><a href="https://warriordash.com/">Warrior Dash</a>: 2015, 2018</li>
+	<li><a href="https://ruggedmaniac.com/">Rugged Maniac</a>: 2018</li>
+</ul>  
+	</div>
+  </div>
+
+  <div class="popup fullwidth" onclick="overlayon(&#34;hobby02&#34;)">
+    <dd class="text-dark">Running</dd>
+  </div>
+
+  <hr>
+
+  </dl>
+
+
+  <dl id="selection">
+
+    	  
+  <div id=hobby03 class="overlay">
+  <i class="fas fa-times overlay-x" onclick="overlayoff(&#34;hobby03&#34;)"></i>
+	<div class="overlay-text">
+	<h4>Disc Golf</h4>
+<hr>
+I'm very much an amateur, but I have fun with it. Trees don't appreciate when I play (I promise I'm not trying to hit them...)
+	</div>
+  </div>
+
+  <div class="popup fullwidth" onclick="overlayon(&#34;hobby03&#34;)">
+    <dd class="text-dark">Disc Golf</dd>
+  </div>
+
+  <hr>
+
+  </dl>
+
+
+  <dl id="selection">
+
+    	  
+  <div id=hobby04 class="overlay">
+  <i class="fas fa-times overlay-x" onclick="overlayoff(&#34;hobby04&#34;)"></i>
+	<div class="overlay-text">
+	<h4>Gaming <i class="fas fa-gamepad"></i></h4>
+<hr>
+<p>I'm a lifetime video gamer. All-time favorites include Mario Kart, Super Smash Bros, The Elder Scrolls, Fallout, & Age of Empires II.</p>
+<p>Volunteered at the inaugural (2019) <a href="https://www.sixtysixgames.com/">Sixty Six Games tournament</a>.</p>
+<p>I'm always ready for board or card games too.  My favorites are Settlers of Catan, Ticket To Ride, Oh Heck, Hearts, & Spades.</p>
+
+	</div>
+  </div>
+
+  <div class="popup fullwidth" onclick="overlayon(&#34;hobby04&#34;)">
+    <dd class="text-dark">Gaming</dd>
+  </div>
+
+  <hr>
+
+  </dl>
+
+
+  <dl id="selection">
+
+    	  
+  <div id=hobby05 class="overlay">
+  <i class="fas fa-times overlay-x" onclick="overlayoff(&#34;hobby05&#34;)"></i>
+	<div class="overlay-text">
+	<h4>Hiking <i class="fas fa-hiking"></i></h4>
+<div style="width:60%;height:60%;margin:auto;">
+  <figure class="center">
+    <img src="/images/hikingAZ01.jpg" alt="Hiking in Tonto National Forest" class="d-block w-100"
+    title="Because the best views come after the hardest climbs.">
+    <figcaption>Tonto National Forest, AZ</figcaption>
+  </figure>
+</div>
+
+	</div>
+  </div>
+
+  <div class="popup fullwidth" onclick="overlayon(&#34;hobby05&#34;)">
+    <dd class="text-dark">Hiking</dd>
+  </div>
+
+  <hr>
+
+  </dl>
+
+</div>
+
+    <script src="https://ericjohnsondev.github.io//js/accordion.js"></script>
+  </div>
+</div>
+
+  </body>
+</html>
