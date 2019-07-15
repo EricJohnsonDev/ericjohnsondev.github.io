@@ -30,7 +30,7 @@ h3 {
 }
 
 /* TODO update for mobile */
-/* HELPFUL POPUP */
+/* HELPFUL POPUP */  
 
 .popup {
 	position: relative;
@@ -79,7 +79,7 @@ h3 {
   display: none;
   width: 100%; /* Full width (cover the whole page) */
   height: 100%; /* Full height (cover the whole page) */
-  top: 0;
+  top: 0; 
   left: 0;
   right: 0;
   bottom: 0;
@@ -109,49 +109,26 @@ h3 {
 .overlay-x {
 	color: #888;
 	position: absolute;
-	right: 5%;
+	right: 0%;
 	cursor: pointer;
-}
-
-@media screen and (max-width: 299px) {
-    .overlay-x {
-        font-size: 1.2em;
-    }
-}
-
-@media screen and (min-width: 300px) and (max-width: 799px) {
-    .overlay-x {
-        font-size: 2em;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    .overlay-x {
-        font-size: 6em;
-    }
-}
-
-/* Misc */
-.center {
-  margin: auto;
-  align: center;
 }
 
 /* ANIMATION */
 
 @-webkit-keyframes fadein {
-  from {opacity: 0;}
+  from {opacity: 0;} 
   to {opacity: 1;}
 }
 @keyframes fadein {
-  from {opacity: 0;}
+  from {opacity: 0;} 
   to {opacity: 1;}
 }
 @-webkit-keyframes spin {
-  from {transform: rotate(0deg);}
+  from {transform: rotate(0deg);} 
   to {transform: rotate(360deg);}
 }
 @keyframes spin {
-  from {transform: rotate(0deg);}
+  from {transform: rotate(0deg);} 
   to {transform: rotate(360deg);}
 }
+	
