@@ -72,47 +72,6 @@ h3 {
 	animation: spin 2.5s linear infinite;
 }
 
-/* OVERLAY */
-
-.overlay {
-  position: fixed; /* Sit on top of the page content */
-  display: none;
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.7);
-  z-index: 2;
-  cursor: default;
-}
-.h-overlay {
-	font-size: 2em;
-	text-align: center;
-	font-family: "Alegreya", serif;
-}
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  padding-left: 3%;
-  padding-bottom: 5%;
-  padding-top: 1%;
-  background-color: #ddd;
-  border-radius: 5px;
-  word-wrap: break-word;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-}
-.overlay-x {
-	color: #888;
-	position: absolute;
-	right: 5%;
-	cursor: pointer;
-}
-
 @media screen and (max-width: 299px) {
     .overlay-x {
         font-size: 1.2em;
