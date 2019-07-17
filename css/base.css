@@ -96,6 +96,11 @@ h3 {
   align: center;
 }
 
+.portrait {
+  height: 80vh;
+  margin: auto;
+}
+
 /* ANIMATION */
 
 @-webkit-keyframes fadein {
