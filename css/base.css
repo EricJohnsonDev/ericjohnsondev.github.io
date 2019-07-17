@@ -72,33 +72,26 @@ h3 {
 	animation: spin 2.5s linear infinite;
 }
 
-@media screen and (max-width: 299px) {
-    .overlay-x {
-        font-size: 1.2em;
-    }
-}
-
-@media screen and (min-width: 300px) and (max-width: 799px) {
-    .overlay-x {
-        font-size: 2em;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    .overlay-x {
-        font-size: 6em;
-    }
-}
-
 /* Misc */
 .center {
   margin: auto;
   align: center;
 }
 
-.portrait {
-  height: 80vh;
-  margin: auto;
+/* Video in modal */
+@media screen and (min-width: 430px) {
+  .modal-video {
+    margin: auto;
+    alighn: center;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .modal-video {
+    width: 85vw;
+    margin: auto;
+    align: center;
+  }
 }
 
 /* ANIMATION */
