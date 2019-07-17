@@ -78,6 +78,12 @@ h3 {
   align: center;
 }
 
+/* Please don't delete this again, Eric */
+.portrait {
+  height: 80vh;
+  margin: auto;
+}
+
 /* Video in modal */
 @media screen and (min-width: 430px) {
   .modal-video {
