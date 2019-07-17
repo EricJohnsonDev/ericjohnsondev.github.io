@@ -127,7 +127,7 @@
 	<h4>January 2019 - Present</h4>
 	<h6>Team: Cloud Native Architecture & Migration</h6>
 	<li>Technical coach in the 'Dojo', assisting multiple development teams migrate applications (services & UIs) to Pivotal Cloud Foundry from an internal Tomcat based platform and/or IBM's WebSphere Application Platform</li>
-	<li>Wrote a custom Pivotal Cloud Foundry plugin in Golang and released as a State Farm inner source project</li>
+	<li>Wrote a custom Pivotal Cloud Foundry plugin in Go and released as a State Farm inner source project</li>
 	<li>Deployed, modified, and released an Open Source Q&A application (intended as an internal Stack Overflow clone)</li>
 		<ul>
 			<li>Nginx, PHP, MySQL application</li>
@@ -340,6 +340,9 @@
 </ul>
 
       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
@@ -421,7 +424,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="modal-title-hobby">Music</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -447,9 +450,22 @@
 </iframe>
 
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
+
+
+  <script>
+    $("#hobby01").on('hidden.bs.modal', function () {
+      $('.modal-video').each(function(){
+        var el_src = $(this).attr("src");
+        $(this).attr("src",el_src);
+      });
+    });
+  </script>
 
   <div class="popup fullwidth" data-toggle="modal" data-target=#hobby01>
     <dd class="text-dark">Music</dd>
@@ -467,7 +483,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="modal-title-hobby">Running</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -482,9 +498,22 @@
 </ul>
 
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
+
+
+  <script>
+    $("#hobby02").on('hidden.bs.modal', function () {
+      $('.modal-video').each(function(){
+        var el_src = $(this).attr("src");
+        $(this).attr("src",el_src);
+      });
+    });
+  </script>
 
   <div class="popup fullwidth" data-toggle="modal" data-target=#hobby02>
     <dd class="text-dark">Running</dd>
@@ -502,7 +531,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="modal-title-hobby">Disc Golf</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -510,9 +539,22 @@
           I'm very much an amateur, but I have fun with it. Trees don't appreciate when I play (I promise I'm not trying to hit them...)
 
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
+
+
+  <script>
+    $("#hobby03").on('hidden.bs.modal', function () {
+      $('.modal-video').each(function(){
+        var el_src = $(this).attr("src");
+        $(this).attr("src",el_src);
+      });
+    });
+  </script>
 
   <div class="popup fullwidth" data-toggle="modal" data-target=#hobby03>
     <dd class="text-dark">Disc Golf</dd>
@@ -530,7 +572,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="modal-title-hobby">Gaming</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -540,9 +582,22 @@
 <p>I'm always ready for board or card games too.  My favorites are Settlers of Catan, Ticket To Ride, Oh Heck, Hearts, & Spades.</p>
 
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
+
+
+  <script>
+    $("#hobby04").on('hidden.bs.modal', function () {
+      $('.modal-video').each(function(){
+        var el_src = $(this).attr("src");
+        $(this).attr("src",el_src);
+      });
+    });
+  </script>
 
   <div class="popup fullwidth" data-toggle="modal" data-target=#hobby04>
     <dd class="text-dark">Gaming</dd>
@@ -560,7 +615,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="modal-title-hobby">Hiking</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -618,9 +673,22 @@
 </div>
 
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
+
+
+  <script>
+    $("#hobby05").on('hidden.bs.modal', function () {
+      $('.modal-video').each(function(){
+        var el_src = $(this).attr("src");
+        $(this).attr("src",el_src);
+      });
+    });
+  </script>
 
   <div class="popup fullwidth" data-toggle="modal" data-target=#hobby05>
     <dd class="text-dark">Hiking</dd>
