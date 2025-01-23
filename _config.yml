@@ -20,11 +20,13 @@
 
 title: Eric Johnson Dev
 email: EricDJohnson17@gmail.com
+name: Eric Johnson
 description: >- # this means to ignore newlines until "baseurl:"
-  Online resume and portfolio for Eric Johnson, a software developer and IT generalist in Wisconsin.
+  Software developer based in Wisconsin
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ericjohnsondev
+logo: assets/img/profile.jpg
 
 # Build settings
 theme: jekyll-theme-minimal
